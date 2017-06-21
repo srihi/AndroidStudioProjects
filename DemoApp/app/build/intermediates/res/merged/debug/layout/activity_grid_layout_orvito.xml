@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gridview_orvito"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.niraj.demoapp.LayoutDemos.GridLayoutOrvitoActivity">
+
+    <FrameLayout
+        android:id="@+id/layout_orvito_frame"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="8dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="orvito"
+            android:textSize="32dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/the_rock"
+            app:civ_border_color="@android:color/holo_green_light"
+            app:civ_border_width="2dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_star_black_24dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="The Rock"
+            android:textSize="24dp" />
+
+    </FrameLayout>
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_orvito_frame"
+        android:background="@android:color/holo_green_light">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_control"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="#4B4F4F"
+            android:drawableTop="@drawable/ic_power_settings_new_white_24dp"
+            android:paddingTop="20dp"
+            android:text="Control"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="#4B4F4F"
+            android:drawableTop="@drawable/ic_visibility_white_24dp"
+            android:paddingTop="20dp"
+            android:text="View"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_alerts"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="#4B4F4F"
+            android:drawableTop="@drawable/ic_warning_white_24dp"
+            android:paddingTop="20dp"
+            android:text="Alerts"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_visitor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="#4B4F4F"
+            android:drawableTop="@drawable/ic_perm_identity_white_24dp"
+            android:paddingTop="20dp"
+            android:text="Visitor"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_scenes"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="#4B4F4F"
+            android:drawableTop="@drawable/ic_photo_white_24dp"
+            android:paddingTop="20dp"
+            android:text="Scenes"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_settings"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="#4B4F4F"
+            android:drawableTop="@drawable/ic_settings_white_24dp"
+            android:paddingTop="20dp"
+            android:text="Settings"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+    </GridLayout>
+
+</RelativeLayout>

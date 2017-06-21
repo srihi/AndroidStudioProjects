@@ -1,0 +1,7 @@
+#Wed Dec 28 21:56:04 IST 2016
+base.0=C\:\\Users\\Niraj\\AndroidStudioProjects\\TableLayoutDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_dcdb38e5a1185e10c493c0709d4a102b612ad30f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Niraj\\AndroidStudioProjects\\TableLayoutDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_af8964fc2906316789518c2d797b6072385feabe\\classes.dex
+base.1=C\:\\Users\\Niraj\\AndroidStudioProjects\\TableLayoutDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_af8964fc2906316789518c2d797b6072385feabe
+file.0=C\:\\Users\\Niraj\\AndroidStudioProjects\\TableLayoutDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_dcdb38e5a1185e10c493c0709d4a102b612ad30f\\classes.dex

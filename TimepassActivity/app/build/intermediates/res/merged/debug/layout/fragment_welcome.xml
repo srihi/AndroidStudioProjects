@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:layout_height="match_parent"
+    tools:context="com.textanddrive.timepassactivity.WelcomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome to timepass"
+        android:textSize="50dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+</FrameLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.niraj.calculatordemo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="12345+54321"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="66666"
+        android:textSize="30sp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayoutCompat">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="7"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="8"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="9"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="4"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="5"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="6"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="."
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="0"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#696969"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:minHeight="80dp"
+                    android:text="="
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#808080"
+                android:fontFamily="sans-serif-smallcaps"
+                android:minHeight="64dp"
+                android:text="DEL"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#808080"
+                android:fontFamily="sans-serif-smallcaps"
+                android:minHeight="64dp"
+                android:text="/"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#808080"
+                android:fontFamily="sans-serif-smallcaps"
+                android:minHeight="64dp"
+                android:text="x"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#808080"
+                android:fontFamily="sans-serif-smallcaps"
+                android:minHeight="64dp"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#808080"
+                android:fontFamily="sans-serif-smallcaps"
+                android:minHeight="64dp"
+                android:text="+"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</LinearLayout>

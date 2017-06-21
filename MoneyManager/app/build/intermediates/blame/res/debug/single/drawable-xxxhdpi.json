@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\touch_work_in_android\\MoneyManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_delete_black_24dp.png",
+        "source": "E:\\touch_work_in_android\\MoneyManager\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "E:\\touch_work_in_android\\MoneyManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_border_color_black_24dp.png",
+        "source": "E:\\touch_work_in_android\\MoneyManager\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_border_color_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\MoneyManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_delete_black_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\MoneyManager\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\MoneyManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_border_color_black_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\MoneyManager\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_border_color_black_24dp.png"
+    }
+]

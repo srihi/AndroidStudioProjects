@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\BroadcastDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_wifi_black_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\BroadcastDemo1\\app\\src\\main\\res\\drawable-mdpi\\ic_wifi_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\BroadcastDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_signal_wifi_off_black_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\BroadcastDemo1\\app\\src\\main\\res\\drawable-mdpi\\ic_signal_wifi_off_black_24dp.png"
+    }
+]

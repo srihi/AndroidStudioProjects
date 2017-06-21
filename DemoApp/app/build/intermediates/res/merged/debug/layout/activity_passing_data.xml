@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_passing_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_demo1_bg_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.niraj.demoapp.PassingData.PassingDataActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar1" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_demo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDemo_1"
+        android:text="Demo 1"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_demo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDemo2"
+        android:text="Demo 2"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_send_msg_for"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorToolbar"
+        app:popupTheme="@style/OverflowMenu"
+        app:titleTextColor="#FFFFFF">
+        <android.support.v7.widget.AppCompatTextView
+            android:text="Send Message For"
+            android:textSize="18sp"
+            android:textColor="#2c3e50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/ch_incoming_texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="only Incoming texts"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="15dp"
+        android:button="@drawable/chk"
+        style="@style/MyCheckBox"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/ch_incoming_calls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="only Incoming calls"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:button="@drawable/chk"
+
+        style="@style/MyCheckBox"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/ch_both"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="both texts and calls"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+        android:button="@drawable/chk"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        style="@style/MyCheckBox"/>
+
+</LinearLayout>

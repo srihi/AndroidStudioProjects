@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_line_weight_black_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\src\\main\\res\\drawable-mdpi\\ic_line_weight_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_person_red_900_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\src\\main\\res\\drawable-mdpi\\ic_person_red_900_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_vpn_key_black_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\src\\main\\res\\drawable-mdpi\\ic_vpn_key_black_24dp.png"
+    }
+]

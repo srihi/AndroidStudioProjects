@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_drawer_drawer.xml",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\src\\main\\res\\menu\\activity_drawer_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer.xml",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DrawerDemo\\app\\src\\main\\res\\menu\\drawer.xml"
+    }
+]

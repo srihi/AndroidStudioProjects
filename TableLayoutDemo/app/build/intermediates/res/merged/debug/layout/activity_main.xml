@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="3dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="3dp"
+    tools:context="com.example.niraj.tablelayoutdemo.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:stretchColumns="4">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tv_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:text="Registration Form"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:paddingTop="15dp">
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_fname"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@drawable/shap_rect_border"
+                android:hint="Name"
+                android:inputType="textCapSentences"
+                android:lines="1"
+                android:maxLines="1"
+                android:padding="5dp" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_surname"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_span="2"
+                android:background="@drawable/shap_rect_border"
+                android:hint="Surname"
+                android:inputType="textCapSentences"
+                android:lines="1"
+                android:maxLines="1"
+                android:padding="5dp" />
+        </TableRow>
+
+        <TableRow android:paddingTop="15dp">
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_email"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@drawable/shap_rect_border"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:maxLines="1"
+                android:padding="5dp" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_contact"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_span="2"
+                android:background="@drawable/shap_rect_border"
+                android:hint="Contact"
+                android:inputType="phone"
+                android:lines="1"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="5dp" />
+        </TableRow>
+
+        <TableRow android:paddingTop="15dp">
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:background="@drawable/shap_rect_border"
+                android:hint="Address"
+                android:inputType="textMultiLine|textCapSentences"
+                android:lines="3"
+                android:maxLines="3"
+                android:padding="5dp" />
+        </TableRow>
+
+        <TableRow android:paddingTop="15dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_country"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Country:" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spn_country"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:background="@drawable/shap_rect_border"
+                android:entries="@array/Country"
+                android:padding="5dp"
+                android:spinnerMode="dropdown"></android.support.v7.widget.AppCompatSpinner>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_city"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="City:" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spn_city"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-35dp"
+                android:background="@drawable/shap_rect_border"
+                android:entries="@array/City"
+                android:padding="5dp"
+                android:spinnerMode="dropdown"></android.support.v7.widget.AppCompatSpinner>
+        </TableRow>
+
+        <TableRow android:paddingTop="15dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_interest"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Interest:" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/cb_webdev"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2"
+                android:text="Web Developer" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/cb_php"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="PHP" />
+        </TableRow>
+
+        <TableRow>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/cb_android"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2"
+                android:text="Android" />\
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/cb_ios"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="IOS" />
+        </TableRow>
+
+        <TableRow android:paddingTop="15dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:checkedButton="@+id/rb_male"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/rb_male"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    app:buttonTint="#000000" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/rb_female"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    app:buttonTint="#000000" />
+            </RadioGroup>
+
+
+        </TableRow>
+
+        <TableRow android:paddingTop="15dp">
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_pswd"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@drawable/shap_rect_border"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="5dp" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_cnfrmpswd"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_span="2"
+                android:background="@drawable/shap_rect_border"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:background="@drawable/shape_rect_btn"
+                android:text="Submit"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

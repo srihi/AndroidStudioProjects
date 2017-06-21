@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fonts_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.niraj.demoapp.Fonts.FontsDemoActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Regular"
+        android:textSize="36dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Bold"
+        android:textSize="36dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Italic"
+        android:textSize="36dp" />
+
+    <com.example.niraj.demoapp.Fonts.MyCustomFontsRegular
+        android:id="@+id/tv_regularcustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Custom Regular"
+        android:textSize="36dp" />
+
+    <com.example.niraj.demoapp.Fonts.MyCustomFontsBold
+        android:id="@+id/tv_boldcustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Custom Bold"
+        android:textSize="36dp" />
+
+    <com.example.niraj.demoapp.Fonts.MyCustomFontsItalic
+        android:id="@+id/tv_italiccustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Custom Italic"
+        android:textSize="36dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

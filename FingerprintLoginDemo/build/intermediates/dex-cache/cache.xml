@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\bb69cc02ebf1f4aea740a6b8954f31a792e09a31\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FingerprintLoginDemo\app\build\intermediates\pre-dexed\debug\classes_1d267bff67e2b09afaea2e632d1fbf313eb350fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\672730bbaf55b9eb53030e87763b4c0747ec0575\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FingerprintLoginDemo\app\build\intermediates\pre-dexed\debug\classes_e9dd8d3c8d74532a87aee5f492b02fd00f0171d4.jar" />
+    </item>
+
+</items>

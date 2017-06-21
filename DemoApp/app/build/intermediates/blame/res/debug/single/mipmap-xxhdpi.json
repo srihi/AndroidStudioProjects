@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fb.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoApp\\app\\src\\main\\res\\mipmap-xxhdpi\\fb.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\twitter.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoApp\\app\\src\\main\\res\\mipmap-xxhdpi\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\google.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoApp\\app\\src\\main\\res\\mipmap-xxhdpi\\google.png"
+    }
+]

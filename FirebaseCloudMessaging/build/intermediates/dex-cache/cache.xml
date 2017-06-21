@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\0bff51f78213805648a825d1c23d86e23e88e7f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FirebaseCloudMessaging\app\build\intermediates\pre-dexed\debug\classes_d3c84e6028af63d9bc29001bea0fefcefac3320f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\4d7f1e6abe02efa0f6e3c7252349139157ac6374\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FirebaseCloudMessaging\app\build\intermediates\pre-dexed\debug\classes_f4dbc09314d4460ac04df1f449b6c9e46870e31b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\1464e75831777122e5be9dddd51f6ecd4ce96744\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FirebaseCloudMessaging\app\build\intermediates\pre-dexed\debug\classes_09fbd3fb3ea2c73efcff85e2a79c0371fd2d4a4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\958bcaea002f39004f633a63f58787950508a2fd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FirebaseCloudMessaging\app\build\intermediates\pre-dexed\debug\classes_17319c7c728cf1aa276f0c8a19dce1986315e712.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\d666ec1e3acd6a4a21d75f92c43f42669f45e28d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FirebaseCloudMessaging\app\build\intermediates\pre-dexed\debug\classes_d39b27cc5cd69a2ca4e0cd81400d5898e02cc299.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\33b6d7cb3ebccc8fca36a9b0cdaa1108827cdeac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FirebaseCloudMessaging\app\build\intermediates\pre-dexed\debug\classes_2c0b0d237f915b4bcefd5792ee3c2014ca0b9580.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\d69f81432dafdfcadee3c60f2e7a5cff321b4dae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\FirebaseCloudMessaging\app\build\intermediates\pre-dexed\debug\classes_49ec27b22a70eb037795acd0d566c67f47f3863e.jar" />
+    </item>
+
+</items>

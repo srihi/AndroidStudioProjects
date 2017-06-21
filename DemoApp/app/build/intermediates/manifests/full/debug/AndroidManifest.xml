@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.niraj.demoapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.example.niraj.demoapp.MainActivity"
+            android:label="Home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.niraj.demoapp.LifeCycle.LifeCycleFirstActivity"
+            android:label="First Activity" />
+        <activity
+            android:name="com.example.niraj.demoapp.LifeCycle.LifeCycleSecondActivity"
+            android:label="Second Activity" />
+        <activity
+            android:name="com.example.niraj.demoapp.PassingData.Demo1LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name="com.example.niraj.demoapp.LayoutDemos.RelativeLayoutLoginActivity"
+            android:label="Login" />
+        <activity
+            android:name="com.example.niraj.demoapp.LayoutDemos.Layouts2Activity"
+            android:label="Layouts" />
+        <activity
+            android:name="com.example.niraj.demoapp.LayoutDemos.LinearLayoutAmenitiesActivity"
+            android:label="Amenities" />
+        <activity
+            android:name="com.example.niraj.demoapp.PassingData.Demo1UserDetailsActivity"
+            android:label="Details" />
+        <activity
+            android:name="com.example.niraj.demoapp.PassingData.Demo1EditDetailsActivity"
+            android:label="Edit" />
+        <activity
+            android:name="com.example.niraj.demoapp.PassingData.PassingDataActivity"
+            android:label="Data Passing" />
+        <activity
+            android:name="com.example.niraj.demoapp.PassingData.Demo2LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name="com.example.niraj.demoapp.PassingData.Demo2SignupActivity"
+            android:label="Signup" />
+        <activity
+            android:name="com.example.niraj.demoapp.PassingData.Demo2WelcomeActivity"
+            android:label="Welcome" />
+        <activity
+            android:name="com.example.niraj.demoapp.PassingData.Demo2NextActivity"
+            android:label="Next" />
+        <activity
+            android:name="com.example.niraj.demoapp.LayoutDemos.RelativeLayoutTaxibookingActivity"
+            android:label="Book a Taxi" />
+        <activity
+            android:name="com.example.niraj.demoapp.LayoutDemos.FrameLayoutTaxidetailsActivity"
+            android:label="Taxi Details" />
+        <activity
+            android:name="com.example.niraj.demoapp.LayoutDemos.GridLayoutOrvitoActivity"
+            android:label="Orvito" />
+        <activity
+            android:name="com.example.niraj.demoapp.LayoutDemos.TableLayoutBuyticketActivity"
+            android:label="Get Tickets" />
+        <activity
+            android:name="com.example.niraj.demoapp.LayoutDemos.GridLayoutTilesActivity"
+            android:label="Tiles" />
+        <activity
+            android:name="com.example.niraj.demoapp.Fonts.FontsDemoActivity"
+            android:label="Fonts" />
+    </application>
+
+</manifest>

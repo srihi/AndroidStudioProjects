@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\JSONDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Niraj\\.android\\build-cache\\7966c21b1939559b6c49c8f65ec917304c7f1fc4\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\JSONDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Niraj\\.android\\build-cache\\7966c21b1939559b6c49c8f65ec917304c7f1fc4\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\JSONDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Niraj\\.android\\build-cache\\7966c21b1939559b6c49c8f65ec917304c7f1fc4\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\JSONDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Niraj\\.android\\build-cache\\7966c21b1939559b6c49c8f65ec917304c7f1fc4\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

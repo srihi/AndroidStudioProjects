@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_lock_outline_white_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\src\\main\\res\\drawable-xxhdpi\\ic_lock_outline_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_lock_outline_black_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\src\\main\\res\\drawable-xxhdpi\\ic_lock_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_email_white_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\src\\main\\res\\drawable-xxhdpi\\ic_email_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_mail_outline_white_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mail_outline_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_perm_identity_black_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\src\\main\\res\\drawable-xxhdpi\\ic_perm_identity_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_perm_identity_white_24dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\DemoFourActivity\\app\\src\\main\\res\\drawable-xxhdpi\\ic_perm_identity_white_24dp.png"
+    }
+]

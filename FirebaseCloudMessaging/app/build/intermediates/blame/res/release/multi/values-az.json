@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Niraj\\AndroidStudioProjects\\FirebaseCloudMessaging\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-az\\values-az.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 220,
+                    "endOffset": 321
+                },
+                "from": {
+                    "file": "C:\\Users\\Niraj\\.android\\build-cache\\d666ec1e3acd6a4a21d75f92c43f42669f45e28d\\output\\res\\values-az\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 220,
+                        "endOffset": 505
+                    }
+                }
+            }
+        ]
+    }
+]

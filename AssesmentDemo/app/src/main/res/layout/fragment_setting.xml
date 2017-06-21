@@ -1,0 +1,25 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.textanddrive.assesmentdemo.SettingFragment">
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:id="@+id/btn_edit_user"
+        android:text="Edit Your Details"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:id="@+id/btn_delete_user"
+        android:text="Delete Account"
+        android:textColor="@android:color/holo_red_dark"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

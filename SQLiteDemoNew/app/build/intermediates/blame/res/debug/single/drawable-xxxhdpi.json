@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\SQLiteDemoNew\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_check_box_outline_blank_black_36dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\SQLiteDemoNew\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_check_box_outline_blank_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\SQLiteDemoNew\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_radio_button_unchecked_black_36dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\SQLiteDemoNew\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_radio_button_unchecked_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\SQLiteDemoNew\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_check_box_black_36dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\SQLiteDemoNew\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_check_box_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\SQLiteDemoNew\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_radio_button_checked_black_36dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\SQLiteDemoNew\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_radio_button_checked_black_36dp.png"
+    }
+]

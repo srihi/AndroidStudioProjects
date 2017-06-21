@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_grid_layout_tiles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#4B4F4F">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutAlarm"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="36dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@android:color/holo_red_light"
+            android:onClick="onClickAlarm"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_alarm_white_24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@android:color/holo_red_light"
+                android:text="Alarm"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="36dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="#0072FF"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_alarm_white_24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_control2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="#0072FF"
+                android:text="SMS"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="#8A00FF"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_alarm_white_24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_control3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="#8A00FF"
+                android:text="Camera"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="18dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="#32B78D"
+            android:orientation="vertical"
+            android:paddingBottom="18dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_alarm_white_24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_control4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="#32B78D"
+                android:text="Email"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="#E0822F"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_alarm_white_24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_control5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="#E0822F"
+                android:text="search"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="36dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="18dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="#C5CB1E"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_alarm_white_24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_control6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="#C5CB1E"
+                android:text="Apps"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+    </GridLayout>
+</RelativeLayout>

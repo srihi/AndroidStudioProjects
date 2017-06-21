@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\FirebaseCloudMessaging\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\FirebaseCloudMessaging\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\FirebaseCloudMessaging\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\FirebaseCloudMessaging\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    }
+]

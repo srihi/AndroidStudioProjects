@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.textanddrive.assesmentdemo.HomeFragment">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linear_layout_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_manage_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Manage Student" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_take_attendence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Take Attendence" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_save_attendence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Save Attendence Date Wise" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_view_attendence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="View Attendence Date Wise" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_rate_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Rate Student" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linear_layout_student"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_view_faculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="View Faculty Information" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_rate_faculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Rate Faculty" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</FrameLayout>

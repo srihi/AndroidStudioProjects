@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_setting.xml",
+        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\menu\\menu_setting.xml"
+    },
+    {
+        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_add_message.xml",
+        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\menu\\menu_add_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_setting.xml",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\menu\\menu_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_add_message.xml",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\menu\\menu_add_message.xml"
+    }
+]

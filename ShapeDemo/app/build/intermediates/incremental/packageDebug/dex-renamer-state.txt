@@ -1,0 +1,7 @@
+#Sat Dec 31 17:43:54 IST 2016
+base.0=D\:\\Demo_ALL\\Android\\Android_Apps\\ShapeDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ec03e92a8fc072daade13ff5d1aebfd1f475d1ac
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Demo_ALL\\Android\\Android_Apps\\ShapeDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2042f6e7a9052a335401978bfc23df10182ef862\\classes.dex
+base.1=D\:\\Demo_ALL\\Android\\Android_Apps\\ShapeDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2042f6e7a9052a335401978bfc23df10182ef862
+file.0=D\:\\Demo_ALL\\Android\\Android_Apps\\ShapeDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ec03e92a8fc072daade13ff5d1aebfd1f475d1ac\\classes.dex

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\touch_work_in_android\\MoneyManager\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "E:\\touch_work_in_android\\MoneyManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\MoneyManager\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\MoneyManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\touch_work_in_android\\MoneyManager\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "E:\\touch_work_in_android\\MoneyManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\MoneyManager\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\MoneyManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]

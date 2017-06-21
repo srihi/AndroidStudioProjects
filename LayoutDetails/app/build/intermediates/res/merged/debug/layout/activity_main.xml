@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.niraj.layoutdetails.MainActivity">
+
+    <include android:id="@+id/toolbar1" layout="@layout/toolbar1"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_wwenetwork"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/toolbar1"
+        android:background="@drawable/wwe_network_logo" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/img_wwenetwork"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/the_rock"
+        app:civ_border_color="#E63D19"
+        app:civ_border_width="2dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txt_fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/civ_image"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Dwayne"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txt_lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/civ_image"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Johnson"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.AppCompatRatingBar
+        android:id="@+id/rb_star"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_fname"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="#ffee00"
+        android:rating="4.5" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rb_star"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="20dp">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/txt_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nick Name:"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="The Rock"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/txt_bday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BirthDay:"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="May 2, 1972 "
+                android:textSize="20dp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/rb_male"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/rb_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:text="Male"
+                    app:buttonTint="#000000" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/rb_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:clickable="false"
+                    android:text="Female"
+                    app:buttonTint="#000000" />
+            </RadioGroup>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Professions:"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Professions"
+                android:spinnerMode="dropdown"></android.support.v7.widget.AppCompatSpinner>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+</RelativeLayout>

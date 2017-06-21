@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_09af741566d20e3ab87d93f9b97443f48d7f8f2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_8d32ec559fb17980915fa4a95f1f5199f0223bb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_0d0fa68dc3c1520ad00872e7f7d2557a569f6b3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_1e55fcdcaa9ae241ad2d5e6a6483149706a5274c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SOFT\Android_Studio\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_00a93608d6fc7ae98c9a15cef50325a3013874b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_9b974e07d3fd8911003297ef4ef135a39e977d15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.1.1_190b158af8b7671bd07cfffdbf1b4ab2c4051535.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_544cb798c37ce69d3681b17900b7c544d73bbab8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_ec0c86d12da28104b66de27332c875223e7d0a72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_5f922e05e83c7968f20a936c333c01c418c4f7a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_190efa8d65084dc911a53987af731ecea52fa2f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_7fc0bd9862e276681a5e68be5ceb8463e50972f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_2c32600db2904e163b885f3da2442f6495dff216.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\RecyclerViewDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_f5ab1f67c5a9884ade28b0143591c6483f5af66a.jar" />
+    </item>
+
+</items>

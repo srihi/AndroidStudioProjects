@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.textanddrive.projecttextanddrive.HomeActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_text_and_drive"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorToolbar"
+        app:popupTheme="@style/OverflowMenu"
+        app:titleTextColor="#FFFFFF">
+        <android.support.v7.widget.AppCompatTextView
+            android:text="Text and Drive"
+            android:textSize="18sp"
+            android:textColor="#2c3e50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_long_busy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="How Long Will you Be Busy?"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClickTimer"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_hour1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OO"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hrs"
+                android:textSize="16sp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="30sp" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClickTimer"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_minute1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OO"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min"
+                android:textSize="16sp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="30dp" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClickTimer"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_second1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OO"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sec"
+                android:textSize="16sp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_list_message"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/bg_message"
+        android:gravity="center_vertical"
+        android:onClick="showDialog"
+        android:padding="16dp"
+        android:text="@string/select_message"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+
+    <ToggleButton
+        android:id="@+id/toggle_button"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/toggle"
+        android:textOff=""
+        android:textOn=""
+        android:onClick="onClickTogleButton"/>
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/message_log"
+        android:drawableLeft="@drawable/ic_list_white_36dp"
+        android:drawablePadding="80dp"
+        android:gravity="center_vertical"
+        android:onClick="onClickMessagelog"
+        android:paddingLeft="10dp"
+        android:text="Messagelog"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:weightSum="3"
+        android:background="#000000"
+        android:layout_gravity="bottom">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="#212121"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_gravity="bottom">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Messages"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:paddingTop="5dp"
+                android:textSize="16sp"
+                android:background="@drawable/rect_log"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="1dp"
+            android:background="#212121"
+            android:layout_gravity="bottom">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Calls"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:paddingTop="5dp"
+                android:textSize="16sp"
+                android:background="@drawable/rect_log"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="1dp"
+            android:layout_gravity="bottom"
+            android:background="#212121">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Lifetime Total"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:paddingTop="5dp"
+                android:textSize="16sp"
+                android:background="@drawable/rect_log"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</LinearLayout>

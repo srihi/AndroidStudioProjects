@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8059efe6d974a4d2f0f6dc63a5352603785bdb25">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_21cb9dfc7a439d8f82a9fda94848071ce2c1fa3d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_de816fb6dfe94217ada7dda5f6f77cfa23d33fb4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_c5add256456b3a24046165663165f797ba75c50b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_8fb0c35d648f4cb1f6bd2bd29ee1146900070638\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_90dd8766a121bfb2998e7a224d245d63027dc2e5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_3fc18c16c168f3c7fcd4b870a1f6bedd37192bf7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c375cfa0402be4763cc50f79b8471833ce32fb5b">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_315f826696924c5f40e84328d7bd3b8014e9cd49\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_2112bae853e76e1426851b6a899b47aba6d0753c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_750c567f82fab1b882460542704074e5dee4ed72\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="C:\Users\Niraj\AndroidStudioProjects\Toastonbuttonclick\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_5455f21d01fec63c960700691916f96191364490\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table_layout_buyticket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.niraj.demoapp.LayoutDemos.TableLayoutBuyticketActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/iron_man_mask"
+        android:gravity="bottom"
+        android:padding="16dp"
+        android:text="Strictly Banned Bus Services\nAll Over the World"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="3">
+
+        <TableRow android:background="#38B190">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Ticket Name"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Price"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Quantity"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="VIP Ticket"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="$15"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_remove_circle_outline_black_24dp"
+                android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="4"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow android:background="@android:color/darker_gray">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="VIP Ticket"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="$15"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_remove_circle_outline_black_24dp"
+                android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="0"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="VIP Ticket"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="$15"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_remove_circle_outline_black_24dp"
+                android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="1"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow android:background="@android:color/darker_gray">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/appCompatTextView3"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="VIP Ticket"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="$15"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_remove_circle_outline_black_24dp"
+                android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="0"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="10dp"
+            android:text="Total = $125"
+            android:textSize="16dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:background="#FDBC3F"
+            android:text="Get Ticket"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>

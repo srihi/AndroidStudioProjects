@@ -1,0 +1,26 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.niraj.fragmentdemo.FirstFragment">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_green_light"
+        android:onClick="onClickGreen" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="onClickBlue" />
+
+</android.support.v7.widget.LinearLayoutCompat>
