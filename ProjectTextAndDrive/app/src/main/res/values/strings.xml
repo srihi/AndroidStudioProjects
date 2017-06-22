@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjectTextAndDrive</string>
+    <string name="select_message">select message</string>
+    <string name="message_title">Choose Message</string>
+    <string name="link"><a href="http://www.houseofhollandgames.com">www.houseofhollandgames.com</a></string>
+    <string-array name="msg_list">
+        <item>select message</item>
+        <item>Can\'t talk now.I am driving and\nwill be busy for 00 hr 00 min</item>
+        <item>Hey,almost done with the task at hand.\n I\'ll get back to you in around 00 hr 00 min</item>
+        <item>It\'s though for me to talk now,I\'m on my\n commute. I\'ll get back to you in 00 hr 00 min</item>
+    </string-array>
+
+</resources>

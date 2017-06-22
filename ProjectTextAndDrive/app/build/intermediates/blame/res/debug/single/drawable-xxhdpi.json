@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_list_white_36dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_list_white_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_list_white_36dp.png",
         "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_list_white_36dp.png"
     },
@@ -20,36 +16,16 @@
         "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_check_circle_red_600_24dp.png"
     },
     {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cancel_black_24dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cancel_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_done_white_36dp.png",
         "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_done_white_36dp.png"
-    },
-    {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_circle_red_600_24dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_check_circle_red_600_24dp.png"
     },
     {
         "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_settings_white_36dp.png",
         "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_settings_white_36dp.png"
     },
     {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cancel_black_36dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cancel_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_settings_white_36dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_settings_white_36dp.png"
-    },
-    {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_done_white_36dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_done_white_36dp.png"
-    },
-    {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear_white_36dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_clear_white_36dp.png"
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_box_cyan_400_48dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_check_box_cyan_400_48dp.png"
     },
     {
         "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_add_white_36dp.png",
@@ -60,23 +36,15 @@
         "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_clear_white_36dp.png"
     },
     {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cancel_red_600_24dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cancel_red_600_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cancel_black_24dp.png",
         "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cancel_black_24dp.png"
     },
     {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_mail_outline_white_48dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mail_outline_white_48dp.png"
+        "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_box_outline_blank_cyan_500_48dp.png",
+        "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_check_box_outline_blank_cyan_500_48dp.png"
     },
     {
         "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_mail_outline_white_48dp.png",
         "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mail_outline_white_48dp.png"
-    },
-    {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_add_white_36dp.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_white_36dp.png"
     }
 ]

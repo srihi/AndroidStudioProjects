@@ -8,6 +8,19 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+    <action android:name="android.intent.action.PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="26.0.0-alpha1" />
@@ -33,6 +46,29 @@
         <activity android:name="com.textanddrive.projecttextanddrive.SendMsgForActivity" />
         <activity android:name="com.textanddrive.projecttextanddrive.CustomMsgActivity" />
         <activity android:name="com.textanddrive.projecttextanddrive.AboutUsActivity" />
+
+        <receiver android:name="com.textanddrive.projecttextanddrive.IncomingCall" >
+            <intent-filter android:priority="100" >
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        <service android:name="com.mypackage.service.MyService" android:exported="true">
+        </service>
+        -->
+        <receiver android:name="com.textanddrive.projecttextanddrive.IncomingMsg" >
+            <intent-filter android:priority="100" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <!--
+        <receiver android:name=".IncomingMsg">
+            <intent-filter android:priority="2147483645">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        -->
     </application>
 
 </manifest>

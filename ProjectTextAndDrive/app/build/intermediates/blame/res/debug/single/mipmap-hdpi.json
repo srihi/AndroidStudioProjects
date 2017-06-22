@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "D:\\Text_And_Drive\\ProjectTextAndDrive\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Niraj\\AndroidStudioProjects\\ProjectTextAndDrive\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
