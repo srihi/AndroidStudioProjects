@@ -106,7 +106,7 @@ public class HomeActivity extends AppCompatActivity {
                     ArrayList<User> users = new ArrayList<>();
                     JSONArray jsonArray = mainObject.getJSONArray("data");
                     for (int i = 0; i < jsonArray.length(); i++) {
-                        JSONObject obj = jsonArray.getJSONObject(i);
+                          JSONObject obj = jsonArray.getJSONObject(i);
                         int id = obj.getInt("id");
                         String first_name = obj.getString("first_name");
                         String last_name = obj.getString("last_name");

@@ -1,6 +1,7 @@
 package com.textanddrive.sqlitecrudoperations.models;
 
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 
 import java.util.Arrays;
 
@@ -15,13 +16,13 @@ public class Student {
     String phoneNumber;
     String birthdate;
     String gender;
-    Bitmap image;
+    byte[] image;
 
 
     public Student() {
     }
 
-    public Student(String name, String email, String phoneNumber, String birthdate, String gender, Bitmap image) {
+    public Student(String name, String email, String phoneNumber, String birthdate, String gender, byte[] image) {
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
@@ -78,11 +79,11 @@ public class Student {
         this.gender = gender;
     }
 
-    public Bitmap getImage() {
+    public byte[] getImage() {
         return image;
     }
 
-    public void setImage(Bitmap image) {
+    public void setImage(byte[] image) {
         this.image = image;
     }
 

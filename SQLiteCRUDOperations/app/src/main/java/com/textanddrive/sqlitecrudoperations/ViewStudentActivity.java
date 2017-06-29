@@ -26,7 +26,6 @@ public class ViewStudentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_view_student);
         Toolbar t1 = (Toolbar) findViewById(R.id.toolbar1);
         setSupportActionBar(t1);
-
         helper = new SQLiteDatabaseHelper(this);
         studentList = helper.viewStudent();
         recyclerView = (RecyclerView) findViewById(R.id.rv_student_list);

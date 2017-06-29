@@ -6,10 +6,13 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.util.Log;
 
 import com.textanddrive.sqlitecrudoperations.models.Student;
 
+import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,16 +25,22 @@ public class SQLiteDatabaseHelper extends SQLiteOpenHelper {
     public static final int DATABASE_VERSION = 1;
 
     public static final String TABLE_NAME_STUDENT = "student";
+    public static final String NAME = "name";
+    public static final String EMAIL = "email";
+    public static final String PHONE = "phone";
+    public static final String BIRTHDATE = "birthdate";
+    public static final String GENDER = "gender";
+    public static final String IMAGE = "image";
     Context context;
     public static final String CREATE_TABLE_STUDENT = "create table " + TABLE_NAME_STUDENT
             + " ( "
             + "id integer primary key autoincrement not null, "
-            + "name text, "
-            + "email text, "
-            + "phone text, "
-            + "birthdate text, "
-            + "gender text, "
-            + "image blob"
+            + NAME + " text, "
+            + EMAIL + " text, "
+            + PHONE + " text, "
+            + BIRTHDATE + " text, "
+            + GENDER + " text, "
+            + IMAGE + " blob"
             + " ) ";
 
     public SQLiteDatabaseHelper(Context context) {
@@ -54,12 +63,12 @@ public class SQLiteDatabaseHelper extends SQLiteOpenHelper {
     public void insertStudent(Student student) {
         SQLiteDatabase sqLiteDatabaseHelper = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put("name", student.getName());
-        values.put("email", student.getEmail());
-        values.put("phone", student.getPhoneNumber());
-        values.put("birthdate", student.getBirthdate());
-        values.put("gender", student.getGender());
-        values.put("image", Utility.getBytes(student.getImage()));
+        values.put(NAME, student.getName());
+        values.put(EMAIL, student.getEmail());
+        values.put(PHONE, student.getPhoneNumber());
+        values.put(BIRTHDATE, student.getBirthdate());
+        values.put(GENDER, student.getGender());
+        values.put(IMAGE, student.getImage());
         sqLiteDatabaseHelper.insert(TABLE_NAME_STUDENT, null, values);
         sqLiteDatabaseHelper.close();
     }
@@ -77,22 +86,22 @@ public class SQLiteDatabaseHelper extends SQLiteOpenHelper {
                 student.setPhoneNumber(cursor.getString(3));
                 student.setBirthdate(cursor.getString(4));
                 student.setGender(cursor.getString(5));
-                student.setImage(Utility.getPhoto(cursor.getBlob(6)));
+                student.setImage(cursor.getBlob(6));
                 tempList.add(student);
             } while (cursor.moveToNext());
         }
         return tempList;
     }
 
-    public int updateStudent(int id, String name, String email, String phone, String birthdate, String gender, Bitmap image) {
+    public int updateStudent(int id, String name, String email, String phone, String birthdate, String gender, byte[] image) {
         SQLiteDatabase sqLiteDatabaseHelper = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put("name", name);
-        values.put("email", email);
-        values.put("phone", phone);
-        values.put("birthdate", birthdate);
-        values.put("gender", gender);
-        values.put("image", Utility.getBytes(image));
+        values.put(NAME, name);
+        values.put(EMAIL, email);
+        values.put(PHONE, phone);
+        values.put(BIRTHDATE, birthdate);
+        values.put(GENDER, gender);
+        values.put(IMAGE, image);
         Log.e("TEST", "id : " + id);
         return sqLiteDatabaseHelper.update(TABLE_NAME_STUDENT, values, "id" + "=?", new String[]{String.valueOf(id)});
     }
