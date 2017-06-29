@@ -1,7 +1,0 @@
-#Wed Jan 04 10:45:03 IST 2017
-base.0=C\:\\Users\\Niraj\\AndroidStudioProjects\\GetDataDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_040ee5e3d2b2781f6eb97e8efe504cacb504e6aa
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Niraj\\AndroidStudioProjects\\GetDataDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_faed2ac35a4eccf14e8fdeabedde5986b0bf27b5\\classes.dex
-base.1=C\:\\Users\\Niraj\\AndroidStudioProjects\\GetDataDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_faed2ac35a4eccf14e8fdeabedde5986b0bf27b5
-file.0=C\:\\Users\\Niraj\\AndroidStudioProjects\\GetDataDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_040ee5e3d2b2781f6eb97e8efe504cacb504e6aa\\classes.dex

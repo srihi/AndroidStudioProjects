@@ -1,0 +1,46 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:context="com.textanddrive.mapdemo.MapsActivity" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_home"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:onClick="onClickHome"
+            android:text="Niraj's Home" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_company"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:onClick="onClickCompany"
+            android:text="Agile Infoways" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_collage"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:onClick="onClickDADET"
+            android:text="DADET" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v7.widget.LinearLayoutCompat>

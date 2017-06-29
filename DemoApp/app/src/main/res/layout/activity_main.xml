@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_demo1_bg_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.niraj.demoapp.MainActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select button to view Demo:"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lifecycle"
+        android:text="Activity Life Cycle"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layouts"
+        android:text="Layouts"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_passdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="passdata"
+        android:text="Passing Data"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_fontsdemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fontsdemo"
+        android:text="Fonts Demo"
+        android:textSize="15dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

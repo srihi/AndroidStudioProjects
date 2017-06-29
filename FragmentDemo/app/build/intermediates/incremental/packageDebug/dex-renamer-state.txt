@@ -1,7 +1,0 @@
-#Thu Feb 02 20:54:50 IST 2017
-base.0=C\:\\Users\\Niraj\\AndroidStudioProjects\\FragmentDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_744fe743434d1dd9cfdf795b7ca6734043e96b44
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Niraj\\AndroidStudioProjects\\FragmentDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b838db0191e8750a21a9830ae3e479ae17a6f322\\classes.dex
-base.1=C\:\\Users\\Niraj\\AndroidStudioProjects\\FragmentDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b838db0191e8750a21a9830ae3e479ae17a6f322
-file.0=C\:\\Users\\Niraj\\AndroidStudioProjects\\FragmentDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_744fe743434d1dd9cfdf795b7ca6734043e96b44\\classes.dex

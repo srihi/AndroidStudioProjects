@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_layouts2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_demo1_bg_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.niraj.demoapp.LayoutDemos.Layouts2Activity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar1" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_loginlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loginlayout"
+        android:text="Relative Layout(Login)"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_booktaxilayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="booktaxilayout"
+        android:text="Relative Layout(book taxi)"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_amenitieslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="amenitieslayouts"
+        android:text="Linear Layout(amenities)"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_taxidetailslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="taxidetailslayouts"
+        android:text="Frame Layout(Taxi Details)"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_buyticketlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buyticketlayout"
+        android:text="Table Layout(buy ticket)"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_orvitolayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="orvitolayouts"
+        android:text="Grid Layout(orvito)"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_tileslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tileslayouts"
+        android:text="Grid Layout(tiles)"
+        android:textSize="15dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

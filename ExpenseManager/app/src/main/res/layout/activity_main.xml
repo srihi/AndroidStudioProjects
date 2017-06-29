@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.textanddrive.expensemanager.MainActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_addexpense"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:onClick="onClickAddExpense"
+            android:background="@drawable/shape_button_background"
+            android:text="Add Expense" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_viewexpense"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:onClick="onClickViewExpense"
+            android:background="@drawable/shape_button_background"
+            android:text="View Expense" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>

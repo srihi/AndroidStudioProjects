@@ -1,7 +1,0 @@
-#Wed Dec 14 09:12:53 IST 2016
-base.0=C\:\\Users\\Niraj\\AndroidStudioProjects\\LayoutDemoWhatsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bab7d5e4df1f4c22f5d88bb0db15b58a75e59790
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Niraj\\AndroidStudioProjects\\LayoutDemoWhatsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6a1e88b8501588b1a3e356dffd2a6c92df772812\\classes.dex
-base.1=C\:\\Users\\Niraj\\AndroidStudioProjects\\LayoutDemoWhatsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6a1e88b8501588b1a3e356dffd2a6c92df772812
-file.0=C\:\\Users\\Niraj\\AndroidStudioProjects\\LayoutDemoWhatsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bab7d5e4df1f4c22f5d88bb0db15b58a75e59790\\classes.dex

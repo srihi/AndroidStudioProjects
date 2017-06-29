@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+
+    <string-array name="PaymentMode">
+        <item>Cash</item>
+        <item>Card</item>
+    </string-array>
+
+    <string-array name="Category">
+        <item>Shopping</item>
+        <item>Travel</item>
+        <item>Food</item>
+    </string-array>
+</resources>

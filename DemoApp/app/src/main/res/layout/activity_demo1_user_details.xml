@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_demo1_bg_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.niraj.demoapp.PassingData.Demo1UserDetailsActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar1" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="username"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:text="Your Details"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:inputType="textPersonName"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="Niraj Prajapati"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:inputType="textEmailAddress"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="niraj06081995@gmail.com"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:onClick="onClickEdit"
+        android:padding="5dp"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:onClick="onClickLogout"
+        android:padding="5dp"
+        android:text="Logout" />
+
+</android.support.v7.widget.LinearLayoutCompat>

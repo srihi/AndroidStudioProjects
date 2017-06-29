@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_expense"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.textanddrive.expensemanager.AddExpenseActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Select Date"
+        android:onClick="onClickDate"
+        android:padding="8dp" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spn_paymentmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:entries="@array/PaymentMode"
+        android:spinnerMode="dropdown" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spn_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:entries="@array/Category"
+        android:spinnerMode="dropdown" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="amount"
+        android:inputType="number"
+        android:lines="1"
+        android:padding="8dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:background="@drawable/shape_button_background"
+        android:id="@+id/btn_save"
+        android:onClick="onClickSave"/>
+</android.support.v7.widget.LinearLayoutCompat>

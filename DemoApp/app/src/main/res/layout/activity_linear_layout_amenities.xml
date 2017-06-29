@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_linear_layout_ameneties"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_ameneties_bg_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.niraj.demoapp.LayoutDemos.LinearLayoutAmenitiesActivity">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_swap_vert_white_24dp"
+        android:padding="16dp"
+        android:text="Internet"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_breakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_free_breakfast_white_24dp"
+        android:padding="16dp"
+        android:text="Breakfast"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_handicap_accessible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_accessible_white_24dp"
+        android:padding="16dp"
+        android:text="Handicap Accessible"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_event_white_24dp"
+        android:padding="16dp"
+        android:text="Suitable for Events"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_parking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_local_parking_white_24dp"
+        android:padding="16dp"
+        android:text="Free Parking"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="#BA2B3F"
+        android:padding="16dp"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

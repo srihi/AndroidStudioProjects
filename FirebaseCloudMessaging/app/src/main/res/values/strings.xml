@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">N²LA² Infotech Pvt Ltd</string>
+    <string name="quickstart_message">Click the SUBSCRIBE button below to subscribe to the
+        lecture timings.\nLecture Timings will be received as Notification.</string>
+    <string name="subscribe">Subscribe</string>
+
+    <string name="msg_subscribed">Subscribed</string>
+</resources>
