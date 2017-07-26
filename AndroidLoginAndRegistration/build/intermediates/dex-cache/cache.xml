@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\SOFT\Android_Studio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Niraj\Desktop\Android Studio Zips\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_284087566e6d6ccd352a4171d0f11430150de75f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\d4c46c8615067d77b0304d03a5c85e0536adc931\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Niraj\Desktop\Android Studio Zips\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_7da865bca9bc31d9e6b8074750a3e9bbaf4ce5ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\fddffc3ca9b30dfde10233901be6a6db04e1c736\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Niraj\Desktop\Android Studio Zips\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_aa0d35c46c521743e39778d318f134a17506551a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\044c1bb75c830d6577ae5cda6c91429ca390df60\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Niraj\Desktop\Android Studio Zips\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_708ae23aba7980823b1ac3fec0b6b128fa000843.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\c5187c79feaf0016f3c3c115b00fa8bd62e086cf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Niraj\Desktop\Android Studio Zips\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_fc37ec57c6d8d16d59aa166ab3a92dcbb06aad8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\fddffc3ca9b30dfde10233901be6a6db04e1c736\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Niraj\Desktop\Android Studio Zips\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_a3f571aaf75bf11175599c51d47e73e6e377eb68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Niraj\.android\build-cache\078425baeb5a4cc73d857d4092404d21db2c634b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\Niraj\Desktop\Android Studio Zips\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_1274a4812eb8f42429689e76fccef54abfde40ef.jar" />
+    </item>
+
+</items>

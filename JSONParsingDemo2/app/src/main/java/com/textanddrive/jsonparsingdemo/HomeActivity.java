@@ -89,7 +89,7 @@ public class HomeActivity extends AppCompatActivity {
             //   Log.e("TEST", "Json Data : " + json);
             progressBar.setVisibility(View.GONE);
             if (TextUtils.isEmpty(json)) {
-                Toast.makeText(HomeActivity.this, "No data found", Toast.LENGTH_SHORT).show();
+                Toast.makeText(HomeActivity.this, "Not Connected to Internet", Toast.LENGTH_SHORT).show();
             } else {
                 try {
                     userResponse = new UserResponse();

@@ -1,0 +1,4 @@
+#Wed Jul 26 18:26:20 IST 2017
+base.0=C\:\\Users\\Niraj\\Desktop\\Android Studio Zips\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Niraj\\Desktop\\Android Studio Zips\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

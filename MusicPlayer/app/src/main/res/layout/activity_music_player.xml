@@ -20,13 +20,13 @@
             android:layout_marginTop="10dp"
             android:layout_weight="1"
             android:paddingLeft="8dp"
-            android:text="The Good, The Bad And The Ugly"
+            android:text="@string/app_name"
             android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <ImageButton
-            android:id="@+id/btnPlaylist"
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_playlist"
             android:layout_width="60dp"
             android:layout_height="match_parent"
             android:background="@drawable/ic_playlist_play_black_24dp" />
@@ -45,7 +45,8 @@
         <android.support.v7.widget.AppCompatImageView
             android:layout_width="240dp"
             android:layout_height="240dp"
-            android:src="@drawable/music" />
+            android:src="@drawable/app_icon" />
+
     </android.support.v7.widget.LinearLayoutCompat>
 
     <android.support.v7.widget.LinearLayoutCompat
@@ -115,7 +116,8 @@
         android:layout_above="@id/player_footer"
         android:layout_margin="16dp"
         android:paddingLeft="8dp"
-        android:paddingRight="8dp" />
+        android:paddingRight="8dp"
+        android:theme="@style/MySeekBarTheme" />
 
     <android.support.v7.widget.LinearLayoutCompat
         android:id="@+id/timer_display"
@@ -139,5 +141,29 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="right" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/timer_display"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_repeat_black_36dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_shuffle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_shuffle_grey_400_36dp" />
+
     </android.support.v7.widget.LinearLayoutCompat>
 </RelativeLayout>
