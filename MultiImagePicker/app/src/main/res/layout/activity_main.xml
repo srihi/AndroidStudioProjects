@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.textanddrive.multiimagepicker.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/multiCaptureButton"
+            android:layout_width="@dimen/margin_1"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Multi Capture"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/multiPickerButton"
+            android:layout_width="@dimen/margin_1"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Multi Picker"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_5"
+        android:gravity="center"
+        android:scrollbars="vertical" />
+
+</android.support.v7.widget.LinearLayoutCompat>
